@@ -1,0 +1,74 @@
+/* changer la couleur de certain crazy et app */
+.col-xs-12{
+  text-align: center;
+}
+
+.text-color{
+  color: #1caa98 !important;
+}
+
+
+
+/* -------------------------------|
+|   Mise en forme du jumbotron    |
+|--------------------------------*/
+
+.jumbotron{
+  background-image:  url(../img/site_showcase_bg.jpg); /*photo génante d'enfants et de citrouilles*/
+  color: #fff;
+  height: 500px;
+}
+
+/*espacement entre les éléments*/
+.jumbotron h1{
+  margin-top:  50px;
+}
+
+.jumbotron p{
+  margin-bottom: 50px;
+}
+
+#img2{
+  margin-left: 20px;
+}
+
+#imgphone{
+  width: 61%;
+}
+
+
+
+/*---------------------------------------------------------------|
+|   Mise en forme du Container avec les images (moches) et text  |
+|---------------------------------------------------------------*/
+
+.demo_image{
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+
+.btn-default{
+  
+  font-weight: bold;
+  color: black;
+}
+
+.btn-default:hover {
+    
+    background-color: yellow;
+    border-color: #adadad;
+
+}
+table{
+  margin-top:15px;
+  border-collapse: collapse;
+}
+td{
+  padding: 5px;
+  border: 1px solid black;
+}
+.first{
+  background-color: rgb(130, 170, 214);
+
+}
